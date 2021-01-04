@@ -21,7 +21,7 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/douyu/jupiter/pkg/server/governor"
+	"github.com/douyu/jupiter/internal/governor"
 	job "github.com/douyu/jupiter/pkg/worker/xjob"
 
 	"github.com/BurntSushi/toml"
